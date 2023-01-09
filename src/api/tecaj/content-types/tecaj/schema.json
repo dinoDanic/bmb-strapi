@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "tecajs",
+  "info": {
+    "singularName": "tecaj",
+    "pluralName": "tecajs",
+    "displayName": "Tecaj"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "HRK": {
+      "type": "decimal",
+      "required": true
+    }
+  }
+}
