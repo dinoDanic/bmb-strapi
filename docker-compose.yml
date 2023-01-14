@@ -3,7 +3,7 @@ services:
   bmb_strapi:
     container_name: bmb_strapi
     build: .
-    image: dinodanic/bmb_strapi:latest
+    image: bmb_strapi:latest
     restart: unless-stopped
     env_file: .env
     environment:
