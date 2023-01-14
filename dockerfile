@@ -1,4 +1,4 @@
-FROM node:18
+FROM node:alpine
 RUN apt-get update && apt-get install libvips-dev -y
 ARG NODE_ENV=development
 ENV NODE_ENV=${NODE_ENV}
