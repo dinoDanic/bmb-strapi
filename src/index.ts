@@ -14,6 +14,8 @@ export default {
   register({ strapi }: { strapi: Strapi }) {
     const extensionService = strapi.service("plugin::graphql.extension");
 
+    console.log("HIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII autobuild");
+
     extensionService.use(({ strapi }) => ({
       typeDefs: `
        type ProductEntityResponseCollection {
