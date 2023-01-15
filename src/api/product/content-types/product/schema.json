@@ -55,7 +55,7 @@
       "type": "string"
     },
     "meta_description": {
-      "type": "string"
+      "type": "text"
     },
     "meta_keywords": {
       "type": "string"
@@ -66,19 +66,19 @@
     "EAN": {
       "type": "string"
     },
-    "tezina": {
-      "type": "integer"
-    },
     "dimenzija_lozista": {
       "type": "string"
     },
     "radna_ploca": {
       "type": "string"
     },
-    "promjer_stola": {
-      "type": "integer"
-    },
     "visina": {
+      "type": "string"
+    },
+    "tezina": {
+      "type": "string"
+    },
+    "promjer_stola": {
       "type": "string"
     }
   }

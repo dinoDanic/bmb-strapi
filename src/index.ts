@@ -3,6 +3,8 @@ import {
   convertEurVpcToHrkMpc,
 } from "./helpers/calculator";
 import { Strapi } from "@strapi/strapi";
+import { seedCategories } from "../seed/seedCategories";
+import { seedProducts } from "../seed/seedProducts";
 
 export default {
   /**
@@ -13,8 +15,6 @@ export default {
    */
   register({ strapi }: { strapi: Strapi }) {
     const extensionService = strapi.service("plugin::graphql.extension");
-
-    console.log("HIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII autobuild");
 
     extensionService.use(({ strapi }) => ({
       typeDefs: `
@@ -42,5 +42,8 @@ export default {
     }));
   },
 
-  bootstrap(/*{ strapi }*/) {},
+  async bootstrap({ strapi }) {
+    // await seedCategories(strapi);
+    // await seedProducts(strapi);
+  },
 };

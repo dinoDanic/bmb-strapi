@@ -16,11 +16,18 @@
       "type": "string",
       "required": true
     },
-    "glavna_kategorija": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::main-category.main-category",
-      "inversedBy": "kategorijas"
+    "category_parent_id": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
