@@ -1,4 +1,5 @@
-const products = require("../data/products.json");
+// const products = require("../data/products.json");
+import products from "../data/products.json";
 
 import { Strapi } from "@strapi/strapi";
 

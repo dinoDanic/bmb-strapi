@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "currencies",
+  "info": {
+    "singularName": "currency",
+    "pluralName": "currencies",
+    "displayName": "Tečaj",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "naziv": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "vrijednost": {
+      "type": "float",
+      "required": true
+    }
+  }
+}

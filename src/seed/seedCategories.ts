@@ -1,4 +1,5 @@
-const categories = require("../data/categories.json");
+// const categories = require("../data/categories.json");
+import categories from "../data/categories.json";
 import { Strapi } from "@strapi/strapi";
 
 export const seedCategories = async (strapi: Strapi) => {

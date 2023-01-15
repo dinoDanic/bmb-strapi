@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "vats",
+  "info": {
+    "singularName": "vat",
+    "pluralName": "vats",
+    "displayName": "PDV",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "postotak": {
+      "type": "integer"
+    },
+    "naziv": {
+      "type": "string"
+    }
+  }
+}

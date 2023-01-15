@@ -3,8 +3,6 @@ import {
   convertEurVpcToHrkMpc,
 } from "./helpers/calculator";
 import { Strapi } from "@strapi/strapi";
-import { seedCategories } from "../seed/seedCategories";
-import { seedProducts } from "../seed/seedProducts";
 
 export default {
   /**
