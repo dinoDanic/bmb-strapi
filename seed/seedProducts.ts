@@ -1,4 +1,5 @@
-import products from "../data/products.json";
+const products = require("../data/products.json");
+
 import { Strapi } from "@strapi/strapi";
 
 export const seedProducts = async (strapi: Strapi) => {
